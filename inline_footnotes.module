@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Module file.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function inline_footnotes_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'inline_footnotes/inline_footnotes';
+}

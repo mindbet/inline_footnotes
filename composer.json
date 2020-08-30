@@ -1,0 +1,25 @@
+{
+    "name": "drupal/inline_footnotes",
+    "description": "Show footnotes inline with the text",
+    "type": "drupal-module",
+    "homepage": "https://www.drupal.org/project/inline_footnotes",
+    "authors": [
+        {
+            "name": "Erlend ter Maat",
+            "homepage": "https://www.drupal.org/u/erlendoos"
+        },
+        {
+            "name": "Philip Denlinger",
+            "homepage": "https://www.drupal.org/u/mindbet"
+        },
+        {
+            "name": "See other contributors",
+            "homepage":"https://www.drupal.org/node/2362243/committers"
+        }
+    ],
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/inline_footnotes",
+        "source": "https://git.drupal.org/project/inline_footnotes.git"
+    },
+    "license": "GPL-2.0-or-later"
+}

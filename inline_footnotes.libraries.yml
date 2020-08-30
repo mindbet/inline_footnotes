@@ -1,0 +1,11 @@
+inline_footnotes:
+  version: VERSION
+  css:
+    component:
+      css/inline_footnotes.css: {}
+  js:
+    js/inline_footnotes.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/jquery.once

@@ -1,0 +1,10 @@
+name: Inline Footnotes
+type: module
+description: "Show footnotes inline with text"
+package: CKEditor
+
+dependencies:
+  - drupal:ckeditor
+
+#core: 8.x
+core_version_requirement: ^8.8 || ^9

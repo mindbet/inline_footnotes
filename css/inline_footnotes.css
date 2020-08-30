@@ -1,0 +1,84 @@
+/*
+    Created on : 23-okt-2014, 10:41:56
+    Author     : erlend
+*/
+
+.js fn {
+  display: none;
+}
+
+.fn-content {
+  display: inline-block;
+  margin: 0 .25em;
+}
+
+.fn-close,
+.fn-notes {
+  display: none;
+}
+
+.fn-label {
+  font-size: smaller;
+  background-color: #eeeeee;
+  padding: 0 4px;
+}
+
+.fn-header {
+  background-color: #eeeeee;
+}
+
+.fn-label:before {
+  /*content: '[';*/
+}
+
+.fn-label:after {
+  /*content: ']';*/
+}
+
+.fn-header:hover,
+.fn-close:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.fn-content.collapsed {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #929c79;
+  padding: 0 0 .5em 0;
+  margin: .5em 0;
+  position: relative;
+}
+
+.fn-content.collapsed .fn-header {
+  display: block;
+  padding: .5em 1em .25em 1em;
+  font-weight: bold;
+  border-bottom: 1px dotted #e64a19;
+}
+
+.fn-content.collapsed .fn-label:after,
+.fn-content.collapsed .fn-label:before {
+  content: '';
+}
+
+.fn-content.collapsed .fn-label {
+  display: inline-block;
+  padding-right: 2em;
+  vertical-align: baseline;
+  font-size: 1em;
+}
+
+.fn-content.collapsed .fn-close {
+  display: block;
+  font-weight: normal;
+  float: right;
+  font-size: smaller;
+  font-family: Arial, Helvetica, san-serif;
+  vertical-align: bottom;
+}
+
+.fn-content.collapsed .fn-notes {
+  display: block;
+  padding: .5em 1em 0 1em;
+}
